@@ -1,0 +1,840 @@
+@media only screen and (max-width: 1060px) {
+  .navigation {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 50px;
+  }
+
+  .navigationOnglet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 50px;
+  }
+
+  .horaireGarage {
+    margin: 10px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*position: absolute;*/
+    bottom: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #262526;
+    margin-top: 50px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 100px;
+  }
+
+  .navigationOnglet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 100px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*position: absolute;*/
+    bottom: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #262526;
+    margin-top: 50px;
+    color: white;
+  }
+
+  .horaireGarage {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 490px) {
+  .services {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /*margin-top: 50px;*/
+  }
+
+  .imageService {
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .texteService {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+  }
+
+  #heureRendezVous {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  #heureRendezVous {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 25px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .imageService {
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .texteService {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .nomService,
+  .paragrapheService {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*position: absolute;*/
+    bottom: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #262526;
+    margin-top: 50px;
+    color: white;
+  }
+
+  .messageAjoutAvis {
+    margin-top: 20px;
+    width: 250px;
+  }
+
+  .imageDetailVoiture {
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+  }
+
+  .questionFormulaireContact {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .conteneurDetailVoiture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+    margin-bottom: 200px;
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  .filtreVoiture {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .imageDetailVoiture {
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .questionFormulaireContactDetailVoiture {
+    width: 200px;
+    height: auto;
+  }
+
+  .nomFormulaireContactDetailVoiture,
+  .prenomFormulaireContactDetailVoiture,
+  .emailFormulaireContactDetailVoiture,
+  .phoneFormulaireContactDetailVoiture {
+    width: 160px
+  }
+}
+
+@media only screen and (min-width: 660px) {
+  .questionFormulaireContactDetailVoiture {
+    width: 300px;
+    height: auto;
+  }
+
+  .nomFormulaireContactDetailVoiture,
+  .prenomFormulaireContactDetailVoiture,
+  .emailFormulaireContactDetailVoiture,
+  .phoneFormulaireContactDetailVoiture {
+    width: 200px
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .boutonContactDetailVoiture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .questionFormulaireContactDetailVoiture {
+    width: 150px;
+    height: auto;
+  }
+
+  .nomFormulaireContactDetailVoiture,
+  .prenomFormulaireContactDetailVoiture,
+  .emailFormulaireContactDetailVoiture,
+  .phoneFormulaireContactDetailVoiture {
+    width: 100px
+  }
+
+  .boutonformulaireContactDetailVoiture {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 200px) {
+
+  .nomFormulaireContact,
+  .prenomFormulaireContact,
+  .emailFormulaireContact,
+  .phoneFormulaireContact {
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .questionFormulaireContact {
+    width: 200px;
+  }
+
+  .modalRdv {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border: solid lightgray 1px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .boutonRendezVous {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .modalRdv {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border: solid lightgray 1px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .modalRdv {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border: solid lightgray 1px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .modalRdv {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border: solid lightgray 1px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .choixCreneau {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .explicationService {
+    width: 200px;
+  }
+}
+
+.modalDashboardAdmin {
+  width: 500px;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  border: solid lightgray 1px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  box-sizing: inherit;
+}
+
+.garageLogo {
+  cursor: pointer;
+}
+
+.boutonEspacePro {
+  background-color: white;
+  color: #D94350;
+  margin-top: 10px;
+}
+
+.boutonEspacePro:hover {
+  background-color: #D94350;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+label,
+span {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.boutonFiltre {
+  margin-top: 20px;
+}
+
+.filtrePrix,
+.filtreAnnee,
+.filtreKilometrage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listeDeVoitures {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.voiture,
+p {
+  margin: 10px;
+  text-align: center;
+}
+
+.voiture {
+  border: lightgray solid 1px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+
+.imageVoiture {
+  /*max-width: 200px;
+  max-height: 200px;*/
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.detailsVoiture,
+button {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.titreAnnonce {
+  margin: 50px;
+  text-align: center;
+}
+
+.conteneurDetailVoiture {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px;
+  margin-bottom: 200px;
+}
+
+.infosVoiture {
+  margin-top: 20px;
+}
+
+.boutonContactDetailVoiture,
+.boutonformulaireContactDetailVoiture {
+  display: flex;
+  justify-content: center;
+}
+
+.boutonContactDetailVoitureMessage,
+.boutonContactDetailVoitureTelephone,
+.boutonRendezVousFormulaire {
+  margin: 10px;
+}
+
+.myModal {
+  width: 500px;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  border: solid lightgray 1px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.myModal2 {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  border: solid lightgray 1px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#formulaireContactDetailVoiture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boutonformulaireContactDetailVoiture {
+  gap: 50px;
+  margin-top: 20px
+}
+
+legend {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: solid gray 1px;
+}
+
+#formulaireContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+textarea {
+  resize: none;
+}
+
+.selectRendezVous {
+  margin-top: 10px;
+}
+
+.boutonRendezVousFormulaire {
+  margin-top: 20px;
+}
+
+.boutonContactEnvoyer {
+  margin-top: 20px;
+}
+
+.buttonAjoutAvis {
+  margin: 50px;
+}
+
+.formulaireaAjoutAvis {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputNameAjoutAvis,
+.annulerAjoutAvis,
+.confimerAjoutAvis {
+  margin: 20px;
+}
+
+.messageAjoutAvis {
+  margin-top: 20px;
+}
+
+.inputNameAjoutAvis {
+  margin-bottom: -25px;
+}
+
+.conteneurAvis {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listeAvis,
+.listeEmployes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.avisClient,
+.employe {
+  border: lightgray solid 1px;
+  margin: 20px;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 10px;
+}
+
+.nomClientNote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.positionStarRating {
+  display: inline-flex;
+  /*height: auto;
+  border: solid orange 2px;*/
+}
+
+.radioStar {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalHoraire {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+.choixCreneau {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.priseRdv {
+  display: flex;
+  justify-content: center;
+}
+
+#nom,
+#prenom,
+#email,
+#phone,
+#date,
+#creneau,
+#heureRendezVous,
+#confirmer,
+#annuler {
+  margin-bottom: 10px;
+}
+
+#heureRendezVous,
+#date {
+  text-align: center;
+}
+
+#confirmer,
+#annuler {
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 100px;
+}
+
+.conteneurNumeroTel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  height: 100px;
+}
+
+.conteneurConnexion {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 400px;
+}
+
+.formulaireConnexion {
+  margin: 20px;
+  border: gray solid 1px;
+  border-radius: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #D94350;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+
+.boutonConnexion {
+  display: flex;
+  justify-content: center;
+}
+
+input:focus,
+textarea:focus {
+  border: solid 2px #D94350;
+  outline-style: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+a {
+  color: #D94350;
+}
+
+.active {
+  background-color: #D94350;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+.conteneurVoitures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.titreServices {
+  margin: 50px;
+}
+
+.nomService,
+.paragrapheService {
+  /*font-size: 25px;*/
+  text-align: center;
+}
+
+.boutonSupprimerService,
+.boutonAjouterService,
+.boutonAjouterVoiture,
+.boutonSupprimerVoiture,
+.approuverAvis,
+.supprimerAvis,
+.boutonCreerEmploye,
+.boutonSupprimerEmploye,
+.boutonSupprimer {
+  margin: 10px;
+}
+
+.ouvertOuFermer {
+  width: 180px;
+}
+
+.ajoutService,
+.supprimerService,
+.creerEmploye,
+.supprimerVoiture,
+.ajoutVoiture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intituleService,
+#uploadImage,
+.buttonAnnulerService {
+  width: 125px;
+}
+
+.boutonAjoutService {
+  width: 100px;
+}
+
+#uploadImage {
+  width: 250px;
+}
+
+.buttonAnnulerService,
+#buttonSupprimerAvis,
+#buttonApprouverAvis {
+  margin: 20px;
+}
+
+.boutonDashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+  gap: 50px;
+}
+
+.tailleBoutonDashboard {
+  width: 180px;
+}
+
+.elementDashboardAdmin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#servicesSuppression,
+#voituresSuppression {
+  width: 250px;
+  text-align: center;
+}
+
+.justeLeBouttonEspacePro {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
